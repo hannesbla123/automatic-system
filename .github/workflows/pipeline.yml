@@ -35,8 +35,8 @@ jobs:
       - name: build
         run: ./any_name.sh
 
-      - name: list_codespace
-        run: ./list_codespace.sh
+      - name: list_issues
+        run: ./list_issues.sh
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
