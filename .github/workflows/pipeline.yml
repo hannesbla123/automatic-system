@@ -35,6 +35,9 @@ jobs:
       - name: build
         run: ./any_name.sh
 
+      - name: list_codespace
+        run: ./list_codespace.sh
+
       # deploy {
       - name: Setup Pages
         uses: actions/configure-pages@v5
